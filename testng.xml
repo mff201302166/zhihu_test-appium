@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testng.xml" parallel="false">
+  <parameter name="username" value="13124705542"/>
+  <parameter name="password" value="199086mf"/>
+  <test verbose="4" name="zhihu_test">
+    <classes>
+      <class name="com.zhihu.testcase.Login"/>
+      <class name="com.zhihu.testcase.HomePage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
